@@ -225,8 +225,8 @@ form.sign-in-form {
   font-size: 0.8rem;
 }
 .btn.transparent:hover {
-    border: 2px solid #2c2b2b;
-    color: #2c2b2b;
+  border: 2px solid #2c2b2b;
+  color: #2c2b2b;
 }
 
 .right-panel .image,
