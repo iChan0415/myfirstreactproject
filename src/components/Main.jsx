@@ -40,7 +40,13 @@ const Main = () => {
                 <i className="fas fa-lock"></i>
                 <input type="password" placeholder="Password" />
               </div>
+
               <input type="submit" value="Login" className="btn solid" />
+              <div className="forgotpass-container">
+              <a href="#" className="forgot-password">
+              <p>Forgot Password?</p>
+              </a>
+              </div>
               <p className="social-text">Or Continue with Social Account</p>
               <div className="social-media">
                 <a href="#" className="social-icon">
@@ -120,6 +126,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

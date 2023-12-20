@@ -53,6 +53,7 @@ form {
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
+
 }
 
 form.sign-in-form {
@@ -132,7 +133,7 @@ form.sign-in-form {
 }
 
 .btn {
-  width: 150px;
+  width: 380px;
   background-color: #13b921;
   border: none;
   outline: none;
@@ -149,6 +150,16 @@ form.sign-in-form {
 .btn:hover {
   background-color: #247c2c;
 }
+
+.forgotpass-container {
+  margin-bottom: 20px;
+}
+
+.forgot-password {
+  color: #247c2c;
+  text-decoration: none;
+}
+
 .panels-container {
   position: absolute;
   height: 100%;
